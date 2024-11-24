@@ -17,8 +17,8 @@ You compete against a computer opponent in a race to discover hidden candy.
 | e .L.......    e /////////   C chocolate bar 2x3 |
 | f .........    f /////////   M marshmallow   2x1 |
 |                                                  |
-|p1 guess: _                                       |
-|               p2 guess: _                        |
+|p1 guess: __   p2 guess: __                       |
+|               (continue)                         |
  '------------------------------------------------'
 ```
 
