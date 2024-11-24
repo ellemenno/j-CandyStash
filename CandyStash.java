@@ -14,7 +14,7 @@ Candy Stash
 
          1         2         3         4         5
 12345678901234567890123456789012345678901234567890
-                              candy stash         1
+                              candy stash r000    1
 p1 123456789   p2 123456789                       2
  a .........    a /..//////   X bite              3
  b .L.CC....    b /X///////   / unknown           4
@@ -27,6 +27,7 @@ p1 guess: _                                       0 1
                p2 guess: _                        1
 
  */
+  private static final int REL = 1; // release
   private static final char BLANK = ' ';
   private static final char X = 'X'; // bite
   private static final char U = '/'; // unknown
@@ -314,8 +315,8 @@ p1 guess: _                                       0 1
     for (int j = 0; j < n; j++) { sb.setCharAt(i+j, s.charAt(j)); }
   }
 
-  private static void setTitle(StringBuffer sb, int i) {
-    setText(sb, "candy stash", i);
+  private static void setTitle(StringBuffer sb, int offset) {
+    setText(sb, String.format("candy stash r%03d", REL), offset);
   }
 
   private static void setScore(StringBuffer sb, int score, int i) {
