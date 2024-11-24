@@ -23,8 +23,8 @@ You compete against a computer opponent in a race to discover hidden candy.
 ```
 
 There are three candy snacks of various dimensions, hidden on a 9 x 6 grid:
-- L licorice rope 1x4
-- C chocolate bar 2x3
-- M marshmallow   2x1
+- `L` licorice rope 1x4
+- `C` chocolate bar 2x3
+- `M` marshmallow   2x1
 
 Enter the row-col grid coordinates (e.g. a1) to peek into a cell. 'q' or 'quit' to bail.
